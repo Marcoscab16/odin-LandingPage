@@ -132,3 +132,56 @@ ul{
     font-weight: lighter;
     font-family: 'Roboto', arial;
 }
+
+.seccion4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.seccion4 .container{
+    display: flex;
+    flex: 1;
+    background-color: #3882F6 ;
+    max-width: 1000px;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.seccion4_texto{
+    display: flex;
+    flex-direction: column;
+    margin-right: 400px;
+    color: #fff;
+}
+
+.seccion4_titulo{
+    font-family: 'Roboto', arial;
+    font-weight: bold;
+    font-size: 20px;
+    gap: 20px;
+}
+
+.seccion4 button{
+    height: auto;
+    width: 150px;
+    background-color: #3882F6 ;
+    border-radius: 15px;
+    border-color: white;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.footer{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    font-family: 'Roboto', arial;
+    padding: 30px;
+}
