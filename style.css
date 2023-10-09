@@ -103,3 +103,32 @@ ul{
     font-size: 20px;
     font-weight: bold;
 }
+
+.seccion3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    background-color: #E5E7EB;
+    padding: 110px;
+}
+
+.seccion3 .container{
+    max-width: 800px;
+}
+
+.seccion3 .Citador{
+    font-size: 23px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: 'Roboto', arial;
+    text-align: right;
+}
+
+.seccion3 .Cita{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+}
